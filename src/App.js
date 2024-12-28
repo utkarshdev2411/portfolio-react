@@ -21,14 +21,14 @@ function App() {
      
      <Navbar/>
      <Intro/>
-     <Services/>
+     {/* <Services/>
      <Experience/>
      <Work/>
      <Portfolio/>
      
 
      <Contact/>
-     <Footer/>
+     <Footer/> */}
     </div>
    
   );
