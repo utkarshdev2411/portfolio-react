@@ -12,9 +12,18 @@ import crown from "../../img/crown.png";
 import Floatingdiv from '../FloatingDiv/floatingdiv';
 import { motion } from 'framer-motion';
 import { Link } from "react-scroll";
+import Developer from '../../img/Developer.webp';
 
 const Intro = () => {
-    const transition = { duration: 2, type: 'spring' };
+    const transition = { duration:2, type: 'spring' ,bounce:0.3};
+    const levitate = {
+        y: [0, -10, 0], // Move up and down
+        transition: {
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "loop",
+        },
+    };
 
     return (
         <div className='intro' id='intro'>
@@ -35,38 +44,42 @@ const Intro = () => {
             </div>
 
             <div className='i-right'>
-                <div className='i-vector'>
-                <img src={Vector1} alt='' />
-                <img src={Vector2} className='vector2' alt='' />
-                <img src={boy} alt='' />
-                </div>
-                
-            
+                <motion.img
+                    initial={{ right: '0%' }}
+                    whileInView={{ right: '100%' }}
+                    transition={transition}
+                    src={Developer} alt=''
+                />
 
-                    {/* <motion.img 
-                        initial={{ right: '0%' }}
-                        whileInView={{ left: '40%' }}
-                        transition={transition}
-                        src={glassesimoji} alt=''
-                    />
-                <motion.div 
-                    initial={{ left: "100%" }}
-                    whileInView={{ left: "80%" }}
+
+
+                <motion.img
+                    initial={{ top:'0%', right: '0%' }}
+                    whileInView={{ right: '80%', top: '-10%' }}
+                    transition={transition}
+                    animate={levitate}
+                    src={glassesimoji} alt=''
+                />
+                <motion.div
+                    initial={{ right: "0" }}
+                    whileInView={{ right: "25%" }}
                     transition={transition}
                     className="floating-div"
-                    
+                    animate={levitate}
+
                 >
                     <Floatingdiv image={crown} text1='Full-Stack' text2='Developer' />
                 </motion.div>
                 <motion.div
-                    initial={{ left: "100%" }}
-                    whileInView={{ left: "50%" }}
+                    initial={{ right: "0%" ,top:'80%'}}
+                    whileInView={{ right: "100%" }}
                     transition={transition}
+                    animate={levitate}
                     className="floating-div"
-                    
+
                 >
-                    <Floatingdiv image={thumbup} text1='Generative AI' text2='Developer' />
-                </motion.div> */}
+                    <Floatingdiv image={thumbup} text1='GenAI' text2='Developer' />
+                </motion.div>
                 {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
                 <div className='blur' style={{ background: '#C1F5FF', top: '17rem', height: '21rem', left: '-9rem' }}></div> */}
             </div>
