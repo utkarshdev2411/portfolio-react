@@ -1,0 +1,112 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "React",
+            "path": "/Skills/react.png",
+            "placeholder": "React Image"
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "path": "/Skills/javascript.png",
+            "placeholder": "JavaScript Image"
+        },
+        {
+            "id": 3,
+            "name": "Python",
+            "path": "/Skills/python.png",
+            "placeholder": "Python Image"
+        },
+        {
+            "id": 4,
+            "name": "Node.js",
+            "path": "/Skills/nodejs.png",
+            "placeholder": "Node.js Image"
+        },
+        {
+            "id": 5,
+            "name": "Docker",
+            "path": "/Skills/docker.png",
+            "placeholder": "Docker Image"
+        },
+        {
+            "id": 6,
+            "name": "Kubernetes",
+            "path": "/Skills/kubernets.png",
+            "placeholder": "Kubernetes Image"
+        },
+        {
+            "id": 7,
+            "name": "MongoDB",
+            "path": "/Skills/mongodb.png",
+            "placeholder": "MongoDB Image"
+        },
+        {
+            "id": 8,
+            "name": "Express",
+            "path": "/Skills/express.png",
+            "placeholder": "Express Image"
+        },
+        {
+            "id": 9,
+            "name": "FastAPI",
+            "path": "/Skills/fastapi.png",
+            "placeholder": "FastAPI Image"
+        },
+        {
+            "id": 10,
+            "name": "Flask",
+            "path": "/Skills/flask.png",
+            "placeholder": "Flask Image"
+        },
+        {
+            "id": 11,
+            "name": "GitHub",
+            "path": "/Skills/github.png",
+            "placeholder": "GitHub Image"
+        },
+        {
+            "id": 12,
+            "name": "Postman",
+            "path": "/Skills/postman.png",
+            "placeholder": "Postman Image"
+        },
+        {
+            "id": 13,
+            "name": "ChromaDB",
+            "path": "/Skills/chromadb.png",
+            "placeholder": "ChromaDB Image"
+        },
+        {
+            "id": 14,
+            "name": "Langchain",
+            "path": "/Skills/Langchain.png",
+            "placeholder": "Langchain Image"
+        },
+        {
+            "id": 15,
+            "name": "HuggingFace",
+            "path": "/Skills/huggingface.png",
+            "placeholder": "HuggingFace Image"
+        },
+        {
+            "id": 16,
+            "name": "Vercel",
+            "path": "/Skills/Vercel.png",
+            "placeholder": "Vercel Image"
+        },
+        {
+            "id": 17,
+            "name": "HTML",
+            "path": "/Skills/html.png",
+            "placeholder": "HTML Image"
+        },
+        {
+            "id": 18,
+            "name": "CSS",
+            "path": "/Skills/css.png",
+            "placeholder": "CSS Image"
+        }
+    ]
+}

@@ -21,8 +21,8 @@ function App() {
      
      <Navbar/>
      <Intro/>
-     {/* <Services/>
-     <Experience/>
+     <Services/>
+     {/* <Experience/>
      <Work/>
      <Portfolio/>
      

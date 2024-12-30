@@ -80,8 +80,8 @@ const Intro = () => {
                 >
                     <Floatingdiv image={thumbup} text1='GenAI' text2='Developer' />
                 </motion.div>
-                {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
-                <div className='blur' style={{ background: '#C1F5FF', top: '17rem', height: '21rem', left: '-9rem' }}></div> */}
+                <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+                <div className='blur' style={{ background: '#C1F5FF', top: '17rem', height: '10rem', left: '-9rem' }}></div>
             </div>
         </div>
     );
