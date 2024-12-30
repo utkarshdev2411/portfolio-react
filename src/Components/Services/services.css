@@ -1,5 +1,8 @@
 .services {
-}
+  width: 70%;
+  min-height: 100vh;
+  align-content: center;
+  }
 
 .awesome {
   display: flex;
