@@ -1,14 +1,53 @@
-.works{
-    padding: 0 3rem 0 3rem;
+.works {
     display: flex;
-    height: 90vh;
-    margin-top: 3rem;
+    height: 100vh;
+    align-items: center;
 }
-.w-right{
+
+.work-class {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+}
+
+.work-class spane {
+    line-height: 1.5;
+}
+
+.rotator {
+    flex: 1;
+}
+
+.work-class>:nth-child(1) {
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.work-class>:nth-child(2) {
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.work-class>:nth-child(3) {
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.work-class>:nth-child(4) {
+    color: var(--gray);
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.w-right {
     position: relative;
 }
 
-.w-mainCircle{
+.w-mainCircle {
     left: 14rem;
     position: relative;
     width: 18rem;
@@ -18,31 +57,37 @@
     top: 1rem;
     background: white;
 }
-.w-mainCircle>*{
+
+.w-mainCircle>* {
     position: absolute;
 }
 
-.w-mainCircle>:nth-child(1){
+.w-mainCircle>:nth-child(1) {
     top: -3rem;
     left: 6rem;
 }
-.w-mainCircle>:nth-child(2){
+
+.w-mainCircle>:nth-child(2) {
     top: 5.5rem;
-    left:-2.4rem;
+    left: -2.4rem;
 }
-.w-mainCircle>:nth-child(3){
+
+.w-mainCircle>:nth-child(3) {
     top: 5.5rem;
-    left:  5.9rem;
+    left: 5.9rem;
 }
-.w-mainCircle>:nth-child(4){
+
+.w-mainCircle>:nth-child(4) {
     top: 14rem;
     left: 6.3rem;
 }
-.w-mainCircle>:nth-child(5){
+
+.w-mainCircle>:nth-child(5) {
     top: 5.5rem;
     left: 14.5rem;
 }
-.secCircle{
+
+.secCircle {
     width: 6rem;
     height: 6rem;
     position: absolute;
@@ -54,25 +99,28 @@
     background: "none";
     box-shadow: var(--smboxShadow);
     background: white;
-    transform: scale(0.45);
+    transform: scale(0.5);
+}
 
+.secCircle>img {
+    transform: scale(0.8);
 }
-.secCircle>img{
-        transform: scale(0.8);
-}
-.w-backCircle{
+
+.w-backCircle {
     position: absolute;
     height: 13rem;
     width: 13rem;
     border-radius: 100%;
     z-index: -1;
 }
-.blueCircle{
+
+.blueCircle {
     background-color: #194988;
     left: 24rem;
     top: 0rem;
 }
-.yellowCircle{
+
+.yellowCircle {
     background: #F5C32C;
     left: 24rem;
     top: 6.4rem;
