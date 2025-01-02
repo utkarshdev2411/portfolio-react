@@ -39,7 +39,7 @@
 
 .work-class>:nth-child(4) {
     color: var(--gray);
-    font-size: 18px;
+    /* font-size: 18px; */
     margin-top: 1rem;
 }
 

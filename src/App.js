@@ -33,9 +33,9 @@ function App() {
       {/* <Element name="portfolio">
         <Portfolio />
       </Element> */}
-      {/* <Element name="contact">
+      <Element name="contact">
         <Contact />
-      </Element> */}
+      </Element>
       <Footer />
     </div>
   );
