@@ -1,5 +1,7 @@
 .portfolio {
-  /* height: 100vh; */
+  overflow: visible !important;
+  height: 100vh;
+
 }
 
 .project-card {
@@ -55,4 +57,28 @@
 .project-card a:hover {
   transform: scale(1.1);
   color: rgb(9, 9, 147);
+}
+
+.swiper-slide {
+  justify-items: center;
+}
+
+.swiper {
+  width: 51vw;
+  padding: 0;
+  margin-top: 10vh !important;
+  
+
+}
+  .swiper-initialized{
+    
+  }
+
+.swiper-pagination-progressbar {
+  margin-top: 2vh;
+  padding: 0;
+  
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #FFD700 !important;
 }
