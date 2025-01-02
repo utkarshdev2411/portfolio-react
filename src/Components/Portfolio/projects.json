@@ -1,0 +1,82 @@
+[
+    {
+      "title": "Project 1",
+      "description": "Description for project 1.",
+      "github": "https://www.github.com/project1",
+      "youtube": "https://www.youtube.com/project1",
+      "deployed": "https://www.vercel.com/project1",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description for project 2.",
+      "github": "https://www.github.com/project2",
+      "youtube": "https://www.youtube.com/project2",
+      "deployed": "https://www.vercel.com/project2",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 3",
+      "description": "Description for project 3.",
+      "github": "https://www.github.com/project3",
+      "youtube": "https://www.youtube.com/project3",
+      "deployed": "https://www.vercel.com/project3",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 4",
+      "description": "Description for project 4.",
+      "github": "https://www.github.com/project4",
+      "youtube": "https://www.youtube.com/project4",
+      "deployed": "https://www.vercel.com/project4",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 5",
+      "description": "Description for project 5.",
+      "github": "https://www.github.com/project5",
+      "youtube": "https://www.youtube.com/project5",
+      "deployed": "https://www.vercel.com/project5",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 6",
+      "description": "Description for project 6.",
+      "github": "https://www.github.com/project6",
+      "youtube": "https://www.youtube.com/project6",
+      "deployed": "https://www.vercel.com/project6",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 7",
+      "description": "Description for project 7.",
+      "github": "https://www.github.com/project7",
+      "youtube": "https://www.youtube.com/project7",
+      "deployed": "https://www.vercel.com/project7",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 8",
+      "description": "Description for project 8.",
+      "github": "https://www.github.com/project8",
+      "youtube": "https://www.youtube.com/project8",
+      "deployed": "https://www.vercel.com/project8",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 9",
+      "description": "Description for project 9.",
+      "github": "https://www.github.com/project9",
+      "youtube": "https://www.youtube.com/project9",
+      "deployed": "https://www.vercel.com/project9",
+      "image": "./../img/Fundraiser.png"
+    },
+    {
+      "title": "Project 10",
+      "description": "Description for project 10.",
+      "github": "https://www.github.com/project10",
+      "youtube": "https://www.youtube.com/project10",
+      "deployed": "https://www.vercel.com/project10",
+      "image": "./../img/Fundraiser.png"
+    }
+]

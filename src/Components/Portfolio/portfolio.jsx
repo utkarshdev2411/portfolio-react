@@ -1,67 +1,65 @@
-
-
 import React from "react";
 import "./portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import "swiper/css/pagination";
 import Fundraiser from "../../img/Fundraiser.png";
-import Slack from "../../img/SlackCloe.png";
-import Newsletter from "../../img/Newsletter.png";
-import Simongame from "../../img/Simongame.png";
-import Drumkit from "../../img/Drumkit.png";
-import Todo from "../../img/Todo.png";
-import Purva from '../../img/Purva.png'
-
-import Portfolioweb from "../../img/Portfolio.png";
-
-
-
 
 const portfolio = () => {
- 
   return (
-    <div className="portfolio" >
-      {/* heading */}
-      <span >Recent Projects</span>
-      <span>Portfolio</span>
+    <div className="portfolio awesome">
+      <span>My Portfolio</span>
+      <span>Featured Projects</span>
 
-      {/* slider */}
-      <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
-        grabCursor={true}
-        className="portfolio-slider"
+      <Swiper modules={[Pagination]}
+        pagination={{ type: 'progressbar', }}
+        spaceBetween={20}
+        slidesPerView={1}
       >
-        <SwiperSlide>
-          <img src={Fundraiser} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Slack} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Newsletter} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Simongame} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Drumkit} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Purva} alt="" />
-        </SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+        <SwiperSlide></SwiperSlide>
 
-        <SwiperSlide>
-          <img src={Todo} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Portfolioweb} alt="" />
-        </SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+
+
+
       </Swiper>
+      <div className="project-card">
+        <img src={Fundraiser} alt="Fundraiser" />
+        <span> Title</span>
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris. Nisi ut
+          aliquip ex ea commodo consequat.
+        </span>
+        <span>
+          <span>
+            <i className="fab fa-github" style={{ marginRight: "5px" }}></i>
+            <a href="https://www.github.com">Github Repository</a>
+          </span>
+          <span>
+            <i className="fab fa-youtube" style={{ marginRight: "5px" }}></i>
+            <a href="https://www.youtube.com">Youtube Video</a>
+          </span>
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              style={{ width: "20px", marginRight: "5px" }}
+            >
+              <path d="M12 0L24 24H0L12 0z" />
+            </svg>
+            <a href="https://www.vercel.com">Deployed Link</a>
+          </span>
+        </span>
+
+      </div>
+
+
+
     </div>
   );
 };

@@ -30,9 +30,9 @@ function App() {
       <Element name="work">
         <Work />
       </Element>
-      {/* <Element name="portfolio">
+      <Element name="portfolio">
         <Portfolio />
-      </Element> */}
+      </Element>
       <Element name="contact">
         <Contact />
       </Element>
