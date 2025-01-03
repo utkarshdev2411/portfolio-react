@@ -5,28 +5,24 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-   <div className='n-wrapper' id='Navbar'>
-        <div className='n-left'>
-          <div className='n-name'>Utkarsh</div>
-         <Toggle/>
-        </div>
-        <div className='n-right'>
-          <div className='n-list'>
-           
-            <ul style={{listStyleType:'none'}}>
-              {/* <li>Home</li>
-              <li>Services</li>
-              <li>Experiences</li>
-              <li>Portfolio</li>
-              <li>Testimonials</li>  */}
-              <li>
+    <div className='n-wrapper' id='Navbar'>
+      <div className='n-left'>
+        <div className='n-name'>Utkarsh</div>
+        <Toggle />
+      </div>
+      <div className='n-right'>
+        <div className='n-list'>
+
+          <ul style={{ listStyleType: 'none' }}>
+
+            <li>
               <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-                Home
+                About Me
               </Link>
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                Skills
               </Link>
             </li>
             <li>
@@ -41,18 +37,17 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
-                Testimonial
+                Projects
               </Link>
             </li>
 
-            </ul>
-          </div>
-          {/* <button className='button n-button'><strong>Contact</strong></button> */}
-          <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
-        </Link>
+          </ul>
         </div>
-   </div>
+        <Link to="contact" spy={true} smooth={true}>
+          <button className="button n-button">Contact</button>
+        </Link>
+      </div>
+    </div>
   )
 }
 
